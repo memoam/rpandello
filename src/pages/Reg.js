@@ -54,9 +54,7 @@ class Reg extends Component{
                             />
                         </p>
                         <p>
-                            <button type="submit">
-                                Ingresar
-                            </button>
+                        <button><a href="./Open">Registrarme</a></button>
                         </p>
                         
                         <p><a href="./">Ya tengo cuenta</a></p>

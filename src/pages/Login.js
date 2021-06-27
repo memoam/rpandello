@@ -43,9 +43,9 @@ class Login extends Component{
                             />
                         </p>
                         <p>
-                            <button type="submit">
-                                Ingresar
-                            </button>
+                            
+                        <button><a href="./Open">Ingresar</a></button>
+                       
                         </p>
                         <p><a href="./Reg">¿Ya tengo cuenta?</a></p>
                     </form>
