@@ -2,11 +2,14 @@
 import "../css/Estilos.css";
 import React, {Component} from "react";
 
-class Login extends Component{
+class Reg extends Component{
+
+
     state={
         form:{
             username:'',
-            password:''
+            password:'',
+            mail:''
         }
     }
     handlechange=async e=>{
@@ -35,10 +38,18 @@ class Login extends Component{
                             />
                         </p>
                         <p>
-                            <label className="userl">Contraseña</label>
+                            <label>Contraseña</label>
                             <input 
                                 type="password" 
                                 name="password"
+                                onChange={this.handlechange}
+                            />
+                        </p>
+                        <p>
+                            <label>Correo Electronico</label>
+                            <input 
+                                type="email" 
+                                name="mail"
                                 onChange={this.handlechange}
                             />
                         </p>
@@ -47,7 +58,8 @@ class Login extends Component{
                                 Ingresar
                             </button>
                         </p>
-                        <p><a href="./Reg">¿Ya tengo cuenta?</a></p>
+                        
+                        <p><a href="./">Ya tengo cuenta</a></p>
                     </form>
                 </div>
                 <div className="lg-img">
@@ -64,4 +76,4 @@ class Login extends Component{
     }
 }
 
-export default Login;
+export default Reg;

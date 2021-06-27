@@ -12,6 +12,12 @@
      font-family: 'Quicksand', sans-serif;
      padding: 0 1.5em;
  }
+ a{
+     color: #fff;
+     border: 0;
+     
+     padding: 1em;
+ }
  .container{
     max-width: 500px;
     margin-left: auto;
