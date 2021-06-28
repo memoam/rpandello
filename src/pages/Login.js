@@ -24,7 +24,7 @@ class Login extends Component{
             <div className="lg animate__animated animate__backInDown">
                 <div className="lg-info">
 
-                    <h3>Inciar sesión</h3>
+                    <h3>Iniciar sesión</h3>
                     <form className="animate__animated animate__bounce">
                         <p>
                             <label>Usuario</label>

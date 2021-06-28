@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 *{
     
 
@@ -7,6 +8,8 @@
 body{
     background-image: url(../img/cielo.jpg);
     background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+
 }
 .navigation{
     padding: 0;
