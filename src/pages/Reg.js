@@ -1,5 +1,5 @@
 
-import "../css/Estilos.css";
+import "../css/Login.css";
 import React, {Component} from "react";
 
 class Reg extends Component{

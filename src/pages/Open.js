@@ -1,4 +1,4 @@
-import "../css/Estilos.css";
+import "../css/Open.css";
 import React, {Component} from "react";
 
 class Open extends Component{
@@ -7,6 +7,16 @@ class Open extends Component{
     render(){
         return(
             <div>
+                
+                        
+                <nav className="navigation">
+                    <label className="logov">PANDELLO <span>reto</span></label>
+                    <ul><il className="il"><a className="act" href="./">Salir</a></il></ul>
+                    
+                </nav>
+                    
+                    
+                
                 <button className="b2">+ Agregar Table</button>
 
                 <div className="boxf">
